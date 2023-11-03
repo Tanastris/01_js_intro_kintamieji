@@ -1,7 +1,17 @@
 // ijungti kai kurias pagal nustatymus nutylimas klaidas
-'use strict';  //butu grieztas
+"use strict"; //butu grieztas
 
-console.log ('hello from main.js');
+console.log("hello from main.js");
 
- let title = document.getElementById("mainTitle").innerText;
-console.log(title);
+let userName = "James";
+let town = "London";
+let age = 38;
+
+let sentence =
+  userName + " is from " + town + ". And He is " + age + " years old.";
+
+// backtick
+let betterSentence = `${userName} is from ${town}. And He is ${age} years old.`;
+
+console.log(sentence);
+console.log(betterSentence);
