@@ -4,13 +4,13 @@ console.log("kintamieji js loaded");
 
 // Primityvus kintamieji
 // let arba const- deklaruojam kintamaji. rasom TIK pirma karta sukuriant kintamaji
-let age = 48; //number kintamasis
+// let age = 48; //number kintamasis
 let pi = 3.14; // number
 let year = 2023; // number
 //pakeisti year reiksme (nebedeklaruojam)
 year = 2024;
 // string - tekstas
-let name = "James";
+// let name = "James";
 let town = "London";
 let month = "Lapkritis";
 
@@ -42,3 +42,8 @@ console.log(userName);
 //kintamaji kiek man bus metu po 5 metu
 
 //atspausdinti su console
+let age = 31;
+let city = "Vilnius";
+let name = " Rokas";
+let age5 = age + 5;
+console.log(age5);
